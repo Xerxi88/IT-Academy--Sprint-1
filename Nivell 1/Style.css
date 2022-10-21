@@ -1,0 +1,126 @@
+html,body{
+
+    max-width: 1200px;
+    height: 100%;   
+}
+
+/*Primer modulo*/
+
+#abuelo1{
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+    background-color: black;
+}
+#padre1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 96%;
+    height: 35%;
+    background-color: slategrey;
+}
+#padre2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 96%;
+    height: 35%;
+    background-color: orange;
+}
+
+#hijo1,#hijo3{
+    width: 15%;
+    height: 33%;
+    background-color: tomato;
+}
+#hijo2{
+    width: 60%;
+    height: 33%;
+    background-color: tomato
+}
+#hijo4{
+    width: 95%;
+    height: 30%;
+    background-color: gold;
+}
+
+/* Segundo modulo */
+
+#abuelo2{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22%;
+    background-color: black;
+    margin-bottom: 15px;
+}
+#padre3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+    height: 75%;
+    background-color: darkslateblue;
+}
+#padre4{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 28%;
+    height: 75%;
+    background-color: indianred;
+}
+.hijo{
+    width: 45%;
+    height: 15%;
+    background-color: #1162ac;
+}
+
+#hijo5{
+    width: 93%;
+    height: 15%;
+    background-color: lightcyan;
+}
+#hijo6{
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+    background-color: gold;
+}
+#hijo7{
+    margin-top: 3%;
+    width: 90%;
+    height: 15%;
+    background-color: gold;
+}
+
+/* Tercer modulo */
+
+#abuelo3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%;
+    background-color: black;
+}
+
+#padre5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    width: 95%;
+    height: 33%;
+    background-color: goldenrod;
+}
