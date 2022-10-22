@@ -164,3 +164,79 @@ html,body{
         width: 92%;
     }
 }
+@media only screen and (max-width: 320px){
+    
+    #abuelo1{
+        height: 30%;
+    }
+
+    #padre1{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 60%;
+  
+    }
+    #padre2{
+        width: 85%;
+        height: 20%;
+   
+    }
+    #hijo1,#hijo3,#hijo2{
+        
+        width: 85%;
+        height: 10%;
+        background-color: tomato;
+    }
+    #hijo4{
+        width: 85%;
+        height: 30%;
+        background-color: gold;
+    }
+    
+    #abuelo2{
+        flex-direction: column;
+        height: 40%;
+        background-color: gold;   
+    }
+    #padre3{
+        
+        align-content: space-around;
+        width: 85%;
+        height: 60%;
+    }
+    .hijo{
+        width: 85%;
+        height: 8%;
+        background-color: #148da2;
+    }
+    
+    #hijo5{
+        width: 85%;
+        height: 8%;
+        background-color: rgb(161, 243, 243);
+    }
+    #padre4{
+       
+        width: 85%;
+        height: 25%;
+        background-color: rgb(242, 115, 47);
+    }
+ 
+    #hijo6{
+        margin: 0px;
+        width: 85%;
+        height: 20%;
+        background-color: rgb(246, 198, 120);
+    }
+    #hijo7{
+        width: 85%;
+        height: 20%;
+        background-color: rgb(246, 198, 120);
+    }
+    #padre5{
+        width: 85%;
+        background-color: antiquewhite;
+    }
+}
