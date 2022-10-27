@@ -47,6 +47,28 @@ html,body{
 }
 #hijo1{
     width: 80px;
+    display: inline-block;
+    animation: logo 1s ease;
+    animation-iteration-count: 2;   
+}
+@keyframes logo {
+    0%{
+       transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
 }
 
 #hijo2{
@@ -96,6 +118,21 @@ html,body{
     margin-top: 0.5%;
     color:orange;
     font-size: 1.4em;
+    animation: letras 2s ease-out;
+}
+@keyframes letras {
+    0%{
+       transform: translateY(100px);
+       opacity: 0;
+      
+    }
+    45%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 /* Segundo modulo */
@@ -372,7 +409,7 @@ a:hover{
     #hijo4{
         width: 85%;
         height: 30%;
-        font-size:medium;
+        font-size: 1.1em;
     
     }
     
@@ -418,7 +455,5 @@ a:hover{
         width: 85%;
         height: 20%;
         font-size: 0.9em;
-    
     }
-    
 }
